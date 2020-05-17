@@ -1,0 +1,26 @@
+.Sidebar {
+    width: 30vw;
+    max-width: 300px;
+    min-width: 200px;
+    background-color: dimgrey;
+    right: 0;
+    text-align: left;
+
+}
+@media screen and (max-width : 500px){
+    .Sidebar {
+        display: none;
+    }
+
+}
+.HamburgerButton {
+    position: fixed;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+.HamburgerButton:focus {
+    outline: 0;
+}

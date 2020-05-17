@@ -1,0 +1,13 @@
+.Admin {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 500px;
+}
+.ChatList {
+    flex: 1
+}
+.ChatMessageViewAdmin {
+    flex: 1;
+
+}

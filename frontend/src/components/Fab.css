@@ -1,0 +1,35 @@
+.Fab .FloatButton{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background-color: black;
+    border: 0;
+    box-shadow: 3px 3px 6px;
+    outline: 0;
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+
+
+.ButtonImage {
+    height: 50px;
+    pointer-events: none;
+    opacity: 1;
+    transition: 1s all;
+}
+
+.ButtonImageClose {
+    height: 30px;
+    transition: 1s all;
+
+}
+.ChatContainer {
+    right: 3%;
+    bottom: 120px;
+    position: fixed;
+
+}

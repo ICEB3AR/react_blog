@@ -1,0 +1,21 @@
+.ChatInputBar {
+    horiz-align: left;
+    position: relative;
+    margin-bottom: 0;
+
+}
+
+.ChatContainer {
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    visibility: unset;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.MessageHeader {
+    position: fixed;
+    margin: auto;
+    text-align: center;
+}

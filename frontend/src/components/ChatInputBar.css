@@ -1,0 +1,36 @@
+.ChatInput {
+    background-color: #e6e6e6;
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    opacity: 90%;
+    outline: 0;
+    border: 0;
+    margin: auto;
+    text-indent: 10px;
+}
+
+.SendIcon {
+    height: 20px;
+    opacity: 1;
+}
+
+.SendButton {
+    background-color: transparent;
+    border: 0;
+
+}
+.SendButton:focus{
+    outline: 0;
+}
+
+.ChatInputContainer {
+    display: flex;
+    outline: 0;
+    height: 10%;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+}

@@ -1,0 +1,36 @@
+
+.MessageView::-webkit-scrollbar{
+    display: none;
+}
+.MessageView {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: transparent;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.AlertContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ChatAlert {
+    color: #696969;
+    font-size: 14px;
+
+}
+.RefreshButton {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.RefreshButton:focus {
+    outline: 0;
+}
+.RefreshIcon {
+    width: 10px;
+}
